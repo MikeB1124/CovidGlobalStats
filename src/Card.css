@@ -1,0 +1,22 @@
+
+.card{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    font-family: 'Libre Baskerville', serif;
+    border-bottom: 2px white solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+h3{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.country{
+    width: 200px;
+}
+

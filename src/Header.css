@@ -1,0 +1,95 @@
+h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+input{
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    border-radius: 10%;
+}
+
+h2{
+    text-align: center;
+}
+
+.stats{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.title{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.confirmed{
+    margin-right: 55px;
+    background-color: #38ef7d;
+    padding: 25px;
+    border-radius: 15%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    
+}
+
+.death{
+    margin-right: 55px;
+    background-color: #38ef7d;
+    padding: 25px;
+    border-radius: 15%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.percent{
+    background-color: #38ef7d;
+    padding: 25px;
+    border-radius: 15%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.confirmed:hover{
+    margin-right: 55px;
+    background-color: #11998e;
+    transition: all 1s;
+    padding: 25px;
+    border-radius: 15%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    
+}
+
+.death:hover{
+    margin-right: 55px;
+    background-color: #11998e;
+    transition: all 1s;
+    padding: 25px;
+    border-radius: 15%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.percent:hover{
+    background-color: #11998e;
+    transition: all 1s;
+    padding: 25px;
+    border-radius: 15%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
